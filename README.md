@@ -1,4 +1,4 @@
-# Project 2 - Predicting Ames Housing Selling Prices
+# Predicting Ames Housing Selling Prices
 
 ## Objective
 
