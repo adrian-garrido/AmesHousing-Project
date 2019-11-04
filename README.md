@@ -6,8 +6,6 @@ Using the train dataset that contains data on properties from Ames, Iowa, create
 
 ## Cleaning and EDA
 
-
-
 Interpreted and changed the null values, by utilizing the dictionary provided. For the null values that were not mentioned in the dictionary, assumed the most common value for the column.
 
 Changed categorical columns to numerical by putting integers representing quality instead of strings. Used 0 to represent absense of feature. For example, for Pool Quality, I assigned a 4 if it was excellent, a 3 if it was good, a 2 if it was average/typical, a 1 if it was poor, and 0 if the property did not have a pool.
@@ -28,6 +26,6 @@ List of features used:
 
 ## Model Used
 
-Tried all three models, and while they had similar scores, I ended up using the Lasso model, since it gave me the lowest root mean square error on Kaggle.
+I ended up using a Lasso model, since it gave me the lowest root mean square error on Kaggle.
 
 
